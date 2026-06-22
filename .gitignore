@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# Large data files
+data/postings_clean.csv
+data/postings_with_features.csv
+
+# Keep ghost_job_results.csv (needed for dashboard)
+!data/ghost_job_results.csv
