@@ -1,4 +1,4 @@
-\# Ghost Job Posting Detector
+### \# Ghost Job Posting Detector
 
 
 
@@ -8,25 +8,25 @@ to flag potential "ghost job" listings — postings with high visibility but
 
 suspiciously low application conversion rates.
 
+#### 
 
+#### \## What it does
 
-\## What it does
-
-\- \*\*Overview page\*\*: dashboard showing dataset stats, apply/view ratio
+\- **Overview page**: dashboard showing dataset stats, apply/view ratio
 
 &#x20; distribution, top companies, and flagged ghost-job candidates
 
-\- \*\*Detector page\*\*: enter any job posting's stats and get an instant
+\- **Detector page**: enter any job posting's stats and get an instant
 
 &#x20; ghost-job pattern check
 
 
 
-\## How it works
+#### \## How it works
 
-\- Algorithm: Isolation Forest (unsupervised anomaly detection)
+\- **Algorithm**: Isolation Forest (unsupervised anomaly detection)
 
-\- Features: apply/view ratio, log-scaled views, repost count,
+\- **Features**: apply/view ratio, log-scaled views, repost count,
 
 &#x20; skill count, salary disclosed flag
 
@@ -34,19 +34,19 @@ suspiciously low application conversion rates.
 
 
 
-\## Dataset
+#### \## Dataset
 
 LinkedIn Job Postings — Kaggle (118,644 rows, Apr 2024)
 
 
 
-\## Tech stack
+#### \## Tech stack
 
 Python · scikit-learn · pandas · Streamlit
 
 
 
-\## Live demo
+#### \## Live demo
 
 https://ghost-job-detector-nikita.streamlit.app/
 
