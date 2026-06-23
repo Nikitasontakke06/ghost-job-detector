@@ -48,5 +48,7 @@ Python · scikit-learn · pandas · Streamlit
 
 \## Live demo
 
-\[Link will appear here after Streamlit Cloud deployment]
+https://ghost-job-detector-nikita.streamlit.app/
+
+
 
